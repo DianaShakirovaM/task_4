@@ -54,7 +54,7 @@ celery -A config worker -l info --pool=solo
 ```http
 Content-Type: application/json
 Authorization: Token ваш_токен
-POST [/api/cats/](http://127.0.0.1:8000/api/rooms/1/booking/)
+POST /api/rooms/1/booking/
 ```
 ### Получить свободные комнаты в указанный прожемуток времени
 ```http

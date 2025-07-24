@@ -14,13 +14,7 @@
 
 ### Технологии
 - Backend: Django 3.2 + Django REST Framework
-- База данных: PostgreSQL
 - Аутентификация: Djoser
-
-### Требования
-- Python 3.9+
-- Django 3.2
-- Django REST Framework
 - Celery + Redis
 ---
 ### Локальный запуск
